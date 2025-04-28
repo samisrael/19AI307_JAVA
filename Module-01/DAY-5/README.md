@@ -24,7 +24,7 @@ To write a Java program to check whether the number 2003 is prime or not using a
 
 ## PROGRAM:
  ```
-Program to implement a Static Variable using Java
+Program to implement a Instance Method and Variable using Java
 Developed by    : Sam Israel D 
 RegisterNumber  : 212222230128 
 ```
