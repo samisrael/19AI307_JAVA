@@ -50,7 +50,7 @@ public class CalculateCube
 
 ## OUTPUT:
 
-
+![image](./output.png)
 
 ## RESULT:
 Thus the java program for calculate cube of a number using static method has been executed successfully.
