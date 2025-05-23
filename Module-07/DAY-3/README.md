@@ -23,24 +23,37 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
 
-
+```java
+import java.util.*;
+public class Multi extends Thread
+{  
+     Scanner sc = new Scanner(System.in);
+     public void run(){
+         String str = sc.nextLine();
+         System.out.println("Thread Name:"+str);
+    }
+    public static void main(String args[])
+    {  
+        Multi t = new Multi();
+        t.start();
+    }  
+}  
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the Java program for the creation of Thread using Thread class was executed successfully.
