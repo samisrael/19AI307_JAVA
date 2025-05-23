@@ -14,16 +14,27 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
-
+```java
+class Display
+{
+    synchronized void wish(String str){
+        System.out.println("Welcome :: "+str);
+        System.out.println("Welcome :: "+str);
+        try{
+            Thread.sleep(400);
+        } catch(Exception e) {
+            System.out.println(e);
+        }
+    }
+}
+```
 
 
 
@@ -31,7 +42,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program for synchronization was executed successfully.
