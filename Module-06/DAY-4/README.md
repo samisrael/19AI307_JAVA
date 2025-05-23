@@ -13,24 +13,43 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
+**pack/A.java**
+```java
+package pack;
 
+public class A {
+    public void display() {
+        System.out.println("Hello from class A in package pack");
+    }
+}
 
+```
+**mypack/B.java**
+```java
+package mypack;
 
+import pack.A;
+
+public class B {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.display();
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus, the program has accessed the package from another package has been done successfully.
