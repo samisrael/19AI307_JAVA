@@ -18,11 +18,9 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
