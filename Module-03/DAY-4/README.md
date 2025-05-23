@@ -19,16 +19,24 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
-
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        StringTokenizer str = new StringTokenizer("My name is Java Programming"," ");
+        while(str.hasMoreTokens()){
+            System.out.println(str.nextToken());
+        }
+    }
+}
+```
 
 
 
@@ -36,7 +44,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![image](./output.png)
 
 ## RESULT:
 Thus the java program using StringTokenizer class that tokenizes a string "My name is Java Programming" on the basis of whitespace was executed successfully.
