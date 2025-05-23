@@ -22,24 +22,48 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
 
 
-
+```java
+class Parent{
+    void display(){
+        System.out.println("This is Parent Class");
+    }
+}
+class Child1 extends Parent{
+    void print(){
+        System.out.println("This is Child1 Class");
+    }
+}
+class Child2 extends Parent{
+    void print(){
+        System.out.println("This is Child2 Class");
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Child1 ch1 = new Child1();
+        Child2 ch2 = new Child2();
+        ch1.display();
+        ch1.print();
+        ch2.display();
+        ch2.print();
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program for Hierarchical inheritance was executed successfully.
