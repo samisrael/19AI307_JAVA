@@ -52,7 +52,7 @@ public class ExceptionHandling{
 
 ## OUTPUT:
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 ## RESULT:
 Thus the Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism was executed successfully.
