@@ -17,16 +17,42 @@ To Create a java program to print the sum of two number using getter and setter 
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+class Demo{
+    private int a;
+    private int b;
+    public void set(int a,int b)
+    {
+        this.a=a;
+        this.b=b;
+    }
+    public int get()
+    {
+        return a+b;
+    }
+}
 
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int a  = sc.nextInt();
+        int b = sc.nextInt();
+        Demo D = new Demo();
+        
+        D.set(a,b);
+        System.out.println("Sum is "+D.get());
+    }
+}
+```
 
 
 
@@ -34,7 +60,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program to print the sum of two number using getter and setter method was executed successfully.
