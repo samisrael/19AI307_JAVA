@@ -15,24 +15,32 @@ To create a java program to append a NUMBER in a file “testout.txt” using Wr
 
 ## PROGRAM:
  ```
-/*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
 
-
+```java
+try{
+    Writer w1=new FileWriter("testout.txt",true);
+    System.out.println("Append the character in the File Successfully");
+    w1.write("1234567890");
+    w1.close();
+}catch(Exception e){
+    System.out.println(e);
+}
+               
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus, the java program to append a NUMBER in a file “testout.txt” using Writer.was executed and verified successfully
