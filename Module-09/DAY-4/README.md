@@ -15,23 +15,32 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Transient using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
 
 
-
+```java
+class Employeeinfo implements Serializable{
+    String name, desi;
+    transient int id;
+    Employeeinfo(String name, String desi, int id){
+        this.name = name;
+        this.desi = desi;
+        this.id = 0;
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
+![alt text](image.png)
 
 
 ## RESULT:
