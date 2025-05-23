@@ -28,25 +28,59 @@ To create  a Java program to perform the inheritance concept for employee detail
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
 
-
+```java
+import java.util.Scanner;
+class Person
+{
+    String name;
+}
+class Employee extends Person
+{
+    int emp_id;
+    String dept;
+    
+    void getDetails(String name,int emp_id,String dept)
+    {
+        name = name;
+        emp_id = emp_id;
+        dept = dept;
+       
+    }
+    void display(String name,int emp_id,String dept)
+    {
+       System.out.println("Name: "+name+"Emp_ID: "+emp_id+"Department: "+dept);
+    }
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        Employee obj=new Employee();
+        obj.name=sc.nextLine();
+        obj.emp_id=sc.nextInt();
+        obj.dept=sc.next();
+        obj.getDetails(obj.name,obj.emp_id,obj.dept);
+        obj.display(obj.name,obj.emp_id,obj.dept);
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
-Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
+Thus, the Java program to implement the inheritance concept for employee details was  executed successfully.
 
