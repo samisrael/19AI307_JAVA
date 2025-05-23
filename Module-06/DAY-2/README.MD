@@ -20,15 +20,50 @@ To Develop a Java program to perform Multilevel Inheritance to calculate the are
 
 ## PROGRAM:
  ```
-/*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+class Shapes
+{
+    void print_Shape(){
+        System.out.println("Shapes Class");
+    }
+}
+class Circle extends Shapes
+{
+    int r;
+    void get()
+    {
+        Scanner sc=new Scanner(System.in);
+        r = sc.nextInt();
+    }
+}
+class Area extends Circle
+{
+    double area;
+    void calc()
+    {
+        area=3.14*r*r;
+        System.out.println("Area of Circle is "+area);
+    }
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Area obj=new Area();
+        obj.print_Shape();
+        obj.get();
+        obj.calc();
+    }
+}
+```
 
 
 
@@ -37,7 +72,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program for multi-level inheritance was executed successfully.
