@@ -9,22 +9,34 @@
 2.	In main(), create a FileOutputStream and a FilterOutputStream to write "India is my country" to a file named javaFile123.txt.
 3.	Write the string to the file using filter.write(), then close the FilterOutputStream.
 4.	Create a FileReader to read from javaFile123.txt, and wrap it with CustomFilterReader1.
-5.	Read and print each character, where spaces are replaced with $, until the end of the file.
+5.	Read and print each character, where spaces are replaced with *, until the end of the file.
 6.	Close CustomFilterReader1 and FileReader to free resources
 
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
-
+```java
+import java.io.*;  
+class CustomFilterReader1 extends FilterReader{
+    CustomFilterReader1(Reader in){
+        super(in);
+    }
+    public int read() throws IOException{
+        int x = super.read();
+        if((char)x==' ')
+        return ((int)'*');
+        else
+        return x;
+    }
+}
+```
 
 
 
@@ -32,6 +44,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![alt text](image.png)
 
 
 ## RESULT:
