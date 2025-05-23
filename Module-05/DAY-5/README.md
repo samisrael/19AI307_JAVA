@@ -19,16 +19,57 @@ b.	Create an object of ArrayOperation and call findMax() by passing the ArrayDat
 
 ## PROGRAM:
  ```
-/*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.Scanner;
 
+class ArrayHandler {
+    public int findMax(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+}
+
+class ArrayOperations {
+    private ArrayHandler arrayHandler;
+    
+    public ArrayOperations() {
+        arrayHandler = new ArrayHandler(); 
+    }
+    
+    public void printMaxElement(int[] arr) {
+        int max = arrayHandler.findMax(arr);
+        System.out.println("Largest element = " + max);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        ArrayOperations arrayOperations = new ArrayOperations();
+        arrayOperations.printMaxElement(arr);
+
+        scanner.close();
+    }
+}
+
+```
 
 
 
@@ -36,7 +77,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program to Find the Largest or Max Number in Array using has - a relationship was executed successfully. 
