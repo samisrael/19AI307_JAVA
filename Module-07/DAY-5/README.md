@@ -18,15 +18,33 @@ To implement method overloading in Java to calculate the sum of two and three nu
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Method Overloading in Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 212222230128 
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+public class Calculator{
+    public void sum(int n1, int n2){
+        System.out.println(n1+n2);
+    }
+    public void sum(int n1, int n2, int n3){
+        System.out.println(n1+n2+n3);
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        int n3 = sc.nextInt();
+        Calculator cal = new Calculator();
+        cal.sum(n1,n2);
+        cal.sum(n1,n2,n3);
+    }
+}
+```
 
 
 
@@ -35,6 +53,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![alt text](image.png)
 
 
 ## RESULT:
