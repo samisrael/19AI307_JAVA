@@ -22,16 +22,40 @@ b.	Call the methods to get input and display results.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
-
+```java
+class Student{
+    Student(){
+        System.out.println("Student Class");
+    }
+}
+class Marks extends Student{
+    Marks(){
+        System.out.println("Marks Class");
+    }
+}
+class Total extends Marks{
+    Total(){
+        System.out.println("Total Class");
+    }
+}
+class Average extends Total{
+    Average(){
+        System.out.println("Average Class");
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Average a = new Average();
+    }
+}
+```
 
 
 
@@ -39,7 +63,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 
