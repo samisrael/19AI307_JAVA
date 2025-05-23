@@ -5,15 +5,15 @@ To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
 1.  Start the Program.
-2.	Define class `College`:
+2.	Define class `Vehicle`:
 -	a) Define method `display()` that prints "I am a Vehicle"
-3.	Define class `Student` that extends `College`:
+3.	Define class `Car` that extends `Vehicle`:
 -	a) Override method `display()` to print "I am a Car"
 -	b) Define method `print()`:
--	i) Call `super.display()` to invoke `display()` from `College` class
--	ii) Call `this.display()` to invoke `display()` from `Student` class
+-	i) Call `super.display()` to invoke `display()` from `Vehicle` class
+-	ii) Call `this.display()` to invoke `display()` from `Car` class
 4.	Define `Main` class with `main` method:
--	a) Create a `Student` object `sc`
+-	a) Create a `Car` object `sc`
 -	b) Call `sc.print()` to execute the `print()` method
 5.	End
 
@@ -25,24 +25,42 @@ To Create a Java program to implement super keyword in constructor.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D 
+RegisterNumber  : 21222230128 
 ```
 
 ## Sourcecode.java:
 
 
+```java
+class Vehicle {
+    Vehicle(){
+        System.out.println("I am a Vehicle");
+    }
+}
 
+class Car extends Vehicle {
+    Car(){ 
+        super();
+        System.out.println("I am a Car");
+  }
+}
+public class Main {
+  public static void main(String[] args) {
+      
+      Car c = new Car();
+  
+  }
+}
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program for constructor chaining was executed successfully.
