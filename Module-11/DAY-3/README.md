@@ -27,7 +27,30 @@ RegisterNumber  : 212222230128
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+public class Mapp {
+    public static void main(String args[]) {
 
+        LinkedHashMap < Integer, String > map = new LinkedHashMap < > ();
+        Scanner sc = new Scanner(System.in);
+
+        int size = sc.nextInt();
+        for (int i = 0; i < size; i++) {
+            Integer a = sc.nextInt();
+            String b = sc.next();
+            map.put(a, b);
+        }
+
+        for (Map.Entry m: map.entrySet()) {
+            System.out.println("key: " + m.getKey() + " value: " + m.getValue());
+        }
+
+        System.out.println("Does HashMap contains 104 as key: " + map.containsValue("collection"));
+
+    }
+}
+```
 
 
 
@@ -35,7 +58,7 @@ RegisterNumber  : 212222230128
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the  java program to display the contains key of 104 and to retrieve the key and value using linked hash map was executed successfully.
