@@ -29,14 +29,38 @@ RegisterNumber  : 212222230128
 ## Sourcecode.java:
 
 
+```java
+import java.util.*;
 
+public class VectorDemo {
+    public static void main(String args[]) {
+        Vector<String> vector1 = new Vector<String>();
+        Scanner sc = new Scanner(System.in);
+        
+        int size = sc.nextInt();
+        for (int i = 0; i < size; i++) {
+            vector1.add(sc.next());
+        }
+        System.out.println("The vector is: " + vector1);
+
+        Vector<String> vector2 = new Vector<String>();
+        int size2 = sc.nextInt();
+        for (int i = 0; i < size2; i++) {
+            vector2.add(sc.next());
+        }
+
+        System.out.println("The Vector is: " + vector2);
+        System.out.println("Are both of them equal? " + vector1.equals(vector2));
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 
