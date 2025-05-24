@@ -28,7 +28,6 @@ RegisterNumber  : 212222230128
 
 ## OUTPUT:
 
-![alt text](image.png)
 
 ## RESULT:
 
