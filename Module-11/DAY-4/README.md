@@ -26,7 +26,35 @@ RegisterNumber  : 212222230128
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+public class Mapp {
+    public static void main(String args[]) {
 
+        Map < Integer, String > map = new HashMap < Integer, String > ();
+        Scanner sc = new Scanner(System.in);
+
+        int size = sc.nextInt();
+        for (int i = 0; i < size; i++) {
+            Integer a = sc.nextInt();
+            String b = sc.next();
+            map.put(a, b);
+        }
+        HashMap < Integer, String > numbers = new HashMap < > ();
+        int size1 = sc.nextInt();
+        for (int i = 0; i < size1; i++) {
+            Integer a = sc.nextInt();
+            String b = sc.next();
+            numbers.put(a, b);
+        }
+        numbers.putAll(map);
+        System.out.println("Numbers: " + numbers);
+
+
+
+    }
+}
+```
 
 
 
@@ -34,7 +62,7 @@ RegisterNumber  : 212222230128
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program to insert and display the key and values using map interface was  executed and verified successfully.
