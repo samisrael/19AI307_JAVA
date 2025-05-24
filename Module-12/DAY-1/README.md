@@ -22,11 +22,9 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:

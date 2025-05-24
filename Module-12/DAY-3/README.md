@@ -21,11 +21,9 @@ c)	Use a `for` loop to read `n2` strings and add each to `vector2`.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA STACK & VECTOR  using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:

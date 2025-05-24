@@ -23,11 +23,9 @@ To Write a java program to create vector and read the elements for two vector in
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA QUEUE using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:

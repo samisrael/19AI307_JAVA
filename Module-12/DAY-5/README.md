@@ -13,16 +13,37 @@ To demonstrate how to remove and display the first element from a Deque using th
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA DEQUEUE
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
 
+public class Example6 {
+    public static void main(String args[]) {
+        TreeMap<String, String> tree_map1 = new TreeMap<String, String>();
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        for (int i = 0; i < size; i++) {
+            String n1 = sc.next();
+            String s1 = sc.next();
+            tree_map1.put(n1, s1);
+        }
+        System.out.println("Orginal TreeMap content: " + tree_map1);
+    }
+}
+
+class sort_key implements Comparator<String> {
+    @Override
+    public int compare(String str1, String str2) {
+        return str1.compareTo(str2);
+    }
+}
+```
 
 
 
@@ -30,7 +51,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 
