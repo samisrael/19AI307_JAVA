@@ -16,24 +16,35 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA TREESET using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:
 
 
-
-
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        TreeSet<String> ts = new TreeSet<String>();
+        for(int i=0;i<n;i++){
+            ts.add(sc.next());
+        }
+        System.out.println("Tree set:");
+        System.out.println(ts);
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program to iterate through all elements in a tree set was executed successfully.

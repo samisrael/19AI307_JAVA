@@ -20,11 +20,9 @@ To Create a java program to display the contains key of 104 and to retrieve the 
 
 ## PROGRAM:
  ```
-/*
 Program to implement a JAVA LINKED HASH MAP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:

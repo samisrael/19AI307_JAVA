@@ -19,11 +19,9 @@ To Create a java program to insert and display the key and values using map inte
 
 ## PROGRAM:
  ```
-/*
 Program to implement a RELATED TO MAP CONCEPTS using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by    : Sam Israel D
+RegisterNumber  : 212222230128
 ```
 
 ## Sourcecode.java:
