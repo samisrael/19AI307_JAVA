@@ -28,14 +28,31 @@ RegisterNumber  : 212222230128
 ## Sourcecode.java:
 
 
-
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        HashMap<Integer, String> map = new HashMap<Integer, String>();
+        for(int i=0;i<n;i++){
+            map.put(sc.nextInt(), sc.next());
+        }
+        Iterator<Integer> iter = map.keySet().iterator();
+        while(iter.hasNext()){
+            int key = iter.next();
+            System.out.println("key: "+key+" value: "+map.get(key));
+        }
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 
 ## RESULT:
 Thus the java program to retrieve the key and value from hashtable for all input value was executed successfully.
